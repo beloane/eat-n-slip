@@ -30,7 +30,7 @@ export default function App() {
   const [openBill, setOpenBill] = useState("");
 
   function handleAddFriends(friend) {
-    setFriends(() => [...friends, friend]);
+    setFriends((friends) => [...friends, friend]);
   }
 
   function handleUpdateFriend(id, expense) {
