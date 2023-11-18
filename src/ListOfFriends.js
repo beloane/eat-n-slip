@@ -24,11 +24,11 @@ function Friend({ friend, onBill, onSetBill }) {
         {!friend.money ? (
           <p>{`You and ${friend.name} are even`}</p>
         ) : friend.money > 0 ? (
-          <p style={{ color: "green" }}>{`${friend.name} owes you ${Math.abs(
+          <p style={{ color: "green" }}>{`${friend.name} owes you $${Math.abs(
             friend.money
           )}`}</p>
         ) : (
-          <p style={{ color: "red" }}>{`You owe ${friend.name} ${Math.abs(
+          <p style={{ color: "red" }}>{`You owe ${friend.name} $${Math.abs(
             friend.money
           )}`}</p>
         )}
