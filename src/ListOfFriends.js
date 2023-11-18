@@ -1,5 +1,3 @@
-import Bill from "./Bill";
-
 export default function ListOfFriends({ friends, onBill, onSetBill }) {
   return (
     <div className="section-ppl">
