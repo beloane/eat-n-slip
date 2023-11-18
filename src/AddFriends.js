@@ -7,7 +7,7 @@ export default function AddFriends({ onAddFriend, onOpenAddFriend }) {
   function handleSubmit(e) {
     e.preventDefault();
 
-    if (!friendName && !friendImg) return;
+    if (!friendName || !friendImg) return;
 
     const id = Date.now();
     const newFriend = {
