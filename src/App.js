@@ -7,19 +7,19 @@ export default function App() {
   const friendsArr = [
     {
       id: 1,
-      name: "Clark",
+      name: "Dio",
       img: "./dog1.jpeg",
       money: -7,
     },
     {
       id: 2,
-      name: "Sarah",
+      name: "Radu",
       img: "./dog2.jpeg",
       money: 20,
     },
     {
       id: 3,
-      name: "Anthony",
+      name: "Oros",
       img: "./dog3.jpg",
       money: 0,
     },
