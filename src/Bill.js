@@ -20,17 +20,17 @@ export default function Bill({ friend, onSetOpenBill, onHandleUpdateFriend }) {
       <h2>{`SPLIT A BILL WITH ${friend.name}`}</h2>
       <label>💰 Bill value</label>
       <input
-        type="text"
-        placeholder="amount spent..."
-        value={value}
+        type="number"
+        placeholder="add amount spent..."
+        // value={value}
         onChange={(e) => setValue(Number(e.target.value))}
       ></input>
 
       <label>🕴️ Your expense</label>
       <input
-        type="text"
-        placeholder="my expense..."
-        value={expense}
+        type="number"
+        placeholder="add my expense..."
+        // value={expense}
         onChange={(e) => setExpense(Number(e.target.value))}
       ></input>
 
