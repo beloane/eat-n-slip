@@ -35,6 +35,7 @@ body {
   padding: 0.8rem 1.8rem;
   border-radius: 1rem;
   transition: all 0.2s;
+  color: black;
 }
 
 .btn:hover {
