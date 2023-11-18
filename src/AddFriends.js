@@ -9,11 +9,12 @@ export default function AddFriends({ onAddFriend, onOpenAddFriend }) {
 
     if (!friendName && !friendImg) return;
 
+    const id = Date.now();
     const newFriend = {
       name: friendName,
-      img: friendImg,
+      id,
+      img: `${friendImg}?=${id}`,
       money: 0,
-      id: Date.now(),
     };
 
     onAddFriend(newFriend);

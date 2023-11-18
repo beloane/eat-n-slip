@@ -14,7 +14,7 @@ export default function App() {
     {
       id: 2,
       name: "Radu",
-      img: "./dog2.jpeg",
+      img: "https://i.pravatar.cc/48",
       money: 20,
     },
     {
