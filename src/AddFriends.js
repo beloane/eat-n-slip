@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function AddFriends({ onAddFriend, onOpenAddFriend }) {
   const [friendName, setFriendName] = useState("");
-  const [friendImg, setFriendImg] = useState("");
+  const [friendImg, setFriendImg] = useState("https://i.pravatar.cc/48");
 
   function handleSubmit(e) {
     e.preventDefault();

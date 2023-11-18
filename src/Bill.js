@@ -39,7 +39,7 @@ export default function Bill({ friend, onSetOpenBill, onHandleUpdateFriend }) {
         type="text"
         value={`${value - expense}`}
         style={{ backgroundColor: "#fdf2e1", cursor: "default" }}
-        readOnly
+        disabled
       ></input>
 
       <label>🤑 Who is paying the bill?</label>
