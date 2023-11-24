@@ -69,6 +69,7 @@ export default function App() {
 
       {openBill && (
         <Bill
+          key={openBill.id}
           friend={openBill}
           onSetOpenBill={handleSetBill}
           onHandleUpdateFriend={handleUpdateFriend}
